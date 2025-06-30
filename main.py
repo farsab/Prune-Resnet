@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from model_utils.prune_quantize_resnet import get_resnet18, prune_model, quantize_model
+from prune_quantize_resnet import get_resnet18, prune_model, quantize_model
 
 def get_loaders(batch_size=64):
     transform = transforms.Compose([
