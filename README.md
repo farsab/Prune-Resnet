@@ -20,6 +20,4 @@ Demo runs on CIFAR-10 with minimal training to showcase accuracy trade-offs.
 ## Run
 ```bash
 python main.py
-```
 
->>>>>>> c4d6a42 (Initial commit)
